@@ -17,6 +17,7 @@ cat sample.blt | python3 bltparser.py
 ### As a module
 ```
 from bltparser import BLTParser, BLTVisitor
+from pprint import pprint
 
 parser = BLTParser()
 parse_tree = parser.parse(sys.stdin.read())
